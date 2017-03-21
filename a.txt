@@ -1,0 +1,21 @@
+jquery ---DOM
+
+获得内容：
+.text()---只返回文本内容
+
+.html()---可执行文本内的标签
+
+.val()---只能获得文本框的输入字段
+
+获取属性：
+attr()
+修改单个属性---attr('href','http:www.baidu.com');
+修改多个属性---attr('href'：'http:www.baidu.com'，
+                    ‘title':'page one');
+
+
+添加新的HTML内容
+append() - 在被选元素的结尾插入内容
+prepend() - 在被选元素的开头插入内容
+after() - 在被选元素之后插入内容
+before() - 在被选元素之前插入内容
